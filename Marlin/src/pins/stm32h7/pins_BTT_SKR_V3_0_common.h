@@ -231,10 +231,10 @@
 // Heaters / Fans
 //
 #ifndef HEATER_0_PIN
-  #define HEATER_0_PIN                      PB3   // Heater0
+  #define HEATER_0_PIN                      PB4   // Heater0 //MOSFET Stuck closed - DO NOT USE! Switched E0 and E1 pins - JL
 #endif
 #ifndef HEATER_1_PIN
-  #define HEATER_1_PIN                      PB4   // Heater1
+  #define HEATER_1_PIN                      PB3   // Heater1
 #endif
 #ifndef HEATER_BED_PIN
   #define HEATER_BED_PIN                    PD7   // Hotbed
